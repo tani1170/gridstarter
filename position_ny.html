@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lag på lag</title>
+    <style>
+      figure {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        height: 100vh;
+      }
+      img,
+      figcaption {
+        border: 1px solid orange;
+      }
+
+      figcaption {
+        /* Midt centreret */
+        align-self: center;
+        justify-self: center;
+
+        /* midt højre */
+        /* align-self: center;
+        justify-self: end; */
+
+        /* midt top */
+        /* align-self: start;
+        justify-self: center; */
+
+        /* bunden venstre */
+        /* align-self: end;
+        justify-self: start; */
+
+        color: blue;
+        font-size: 5vw;
+      }
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <figure>
+      <img src="kagemand.png" alt="" />
+      <figcaption>
+        Kagemand og kone
+      </figcaption>
+    </figure>
+  </body>
+</html>
